@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Namoro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    section {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+    }
+    .button {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background: #ff1493;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background: #ff69b4;
+    }
+    .gallery img {
+      width: 150px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #ff1493;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Eu só tenho uma pergunta para você...</h1>
+</header>
+
+<section>
+  <h2>Nossa História</h2>
+  <p>Lembra daquele dia em que tudo começou? Foi o início da nossa história incrível, e cada momento com você é uma lembrança especial.</p>
+</section>
+
+<section>
+  <h2>Momentos Especiais</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" alt="Foto 1">
+    <img src="https://via.placeholder.com/150" alt="Foto 2">
+    <img src="https://via.placeholder.com/150" alt="Foto 3">
+  </div>
+</section>
+
+<section>
+  <h2>O Pedido</h2>
+  <p>Quer continuar sendo a razão dos meus sorrisos? Quer namorar comigo?</p>
+  <a href="https://yes.com" class="button">Sim, claro!</a>
+  <a href="https://no.com" class="button">Não (não é uma opção, né?)</a>
+</section>
+
+<section>
+  <h2>Mensagem Final</h2>
+  <p>Você é minha inspiração, minha felicidade, e tudo o que quero é continuar ao seu lado!</p>
+</section>
+
+<footer>
+  <p>Feito com ❤️ só para você!</p>
+</footer>
+
+</body>
+</html>
